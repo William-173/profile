@@ -1,0 +1,126 @@
+/* Existing styles for the page go above this section */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2b2b2b; /* Sidebar dark grey */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    width: 100%;
+}
+
+.menu li {
+    width: 100%;
+    text-align: left;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a i.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.menu li a.active {
+    background-color: #4b0082; /* Dark purple */
+}
+
+.menu li a:hover {
+    background-color: #ffb6c1; /* Light pink hover */
+}
+
+.main-content {
+    padding: 40px;
+    width: 100%;
+}
+
+.main-content h2 {
+    color: #dda0dd; /* Light purple */
+    margin-top: 20px;
+}
+
+.main-content p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #ffb6c1; /* Light pink link color */
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Add the button styles at the bottom */
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4b0082; /* Dark purple */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #dda0dd; /* Light purple on hover */
+    box-shadow: 0 0 15px #ffb6c1; /* Soft pink glow */
+}
